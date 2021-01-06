@@ -1,0 +1,603 @@
+:root {
+    --headerColor: #deb37e;
+    --textColor: #54524f;
+}
+
+
+/* temel özellikler */
+
+html {
+    font-size: 10px;
+}
+
+/* buton */
+.btn,
+.btn-rm,
+.btn-dark {
+    width: 25rem;
+    height: 6.5rem;
+    color: white;
+    display: block;
+    font-size: 2.4rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 6.5rem;
+    border-radius: 35px;
+    text-transform: uppercase;
+
+}
+
+.btn-rm {
+    background-color: var(--headerColor);
+}
+
+.btn-dark {
+    background-color: var(--textColor);
+}
+
+/* özel eklemeler */
+
+.paper-flat {
+    width: 100%;
+    height: 70px;
+    z-index: 5;
+    filter: drop-shadow(30px 10px 4px #88888a);
+
+}
+
+.paper-transition {
+    width: 100%;
+    height: 90px;
+    z-index: 5;
+    filter: drop-shadow(-30px -10px 4px #88888a);
+    margin-bottom: -80px;
+}
+
+
+/* yazı özellikleri*/
+
+.navbar {
+    font-size: 1.6rem;
+    color: var(--textColor);
+    text-decoration: none;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar a {
+    color: var(--textColor);
+}
+
+a {
+    font-size: 1.9rem;
+    text-decoration: none;
+    color: white;
+}
+
+h1,
+h2 {
+    font-size: 6.8rem;
+    text-transform: uppercase;
+}
+
+h4,
+h3 {
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+
+p {
+    font-size: 1.6rem;
+    color: var(--textColor);
+}
+
+.main-header-text,
+.main-header-text-bottom {
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.main-header-text {
+    color: var(--headerColor);
+}
+
+.main-header-text-bottom {
+    color: var(--textColor);
+    margin-top: 1.5em;
+}
+
+.main-read-more {
+    font-weight: bold;
+    color: var(--textColor);
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    display: block;
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.main-paragraph {
+    color: var(--textColor);
+    font-size: 1.8rem;
+    padding: 0 5%;
+    font-weight: 600;
+    line-height: 2.2rem;
+}
+
+/* card texts */
+.column .card .card-bottom h3, p {
+    text-align: center;
+    color: rgb(214, 206, 206);
+    text-align: left;
+    margin: 3rem 6px;
+}
+
+.column .card .card-bottom p.card-text {
+    font-size: 1.9rem;
+}
+
+/* letsgo section texts */
+.lets-go-header {
+    color: var(--headerColor);
+    text-align: center;
+}
+
+.lets-go-bottom {
+    color: #adaba8;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1% 30%;
+}
+
+/* discount text */
+h3,
+p {
+    color: white;
+}
+
+.box2 {
+
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 18%;
+}
+
+.box2 p {
+    padding-right: 15%;
+}
+
+.box3 {
+    padding-top: 20%;
+    padding-left: 20%;
+    padding-right: 5%;
+
+}
+
+.box2 h3,
+.box3 h3 {
+    font-size: 5rem;
+}
+
+.box2 p,
+.box3 p {
+    font-size: 2rem;
+}
+
+/* hiking section texts */
+
+.hiking-text-area {
+    text-align: center;
+    text-transform: none;
+    padding: 10% 15%;
+}
+
+.hiking-text-area h3 {
+    font-size: 3rem;
+}
+
+.hiking-text-area p {
+    font-size: 1.8rem;
+    padding: 0 15%;
+}
+
+
+/* explore section texts */
+#explore h4 {
+    margin-left: 70%;
+    margin-top: 20%;
+    font-size: 4.2rem;
+    font-weight: bold;
+    color: #575755;
+    line-height: 50px;
+}
+
+#explore h4 .explore-span {
+    color: #e2a355;
+    margin-left: 15%;
+}
+
+
+/* comment section texts */
+#comment {
+    font-weight: bold;
+}
+
+#comment h3 {
+    color: #e2a355;
+    font-size: 3.3rem;
+}
+
+#comment p {
+    color: var(--textColor);
+    font-size: 1.9rem;
+    padding: 0 8%;
+}
+
+.blockquote p {
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+/* subscribe section texts */
+
+.subscribe-text-area {
+    text-align: center;
+    padding: 10% 25%;
+}
+
+.subscribe-text-area h3 {
+    font-size: 3.3rem;
+    font-weight: bold;
+}
+
+.subscribe-text-area p {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #575755;
+}
+
+
+/* navbar*/
+
+.navbar {
+    z-index: 100;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    line-height: 120px;
+    height: 120px;
+    display: flex;
+
+}
+
+header .navbar .navbar-items {
+    width: 100%;
+
+}
+
+header .navbar .navbar-items nav ul.navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+header .navbar .navbar-logo .navbar-toggle-icon {
+    margin-left: 70%;
+    font-size: 4.5rem;
+    display: none;
+}
+
+header .navbar .navbar-items nav ul.navigation li a {
+    text-decoration: none;
+    margin-left: 1.5rem;
+    display: block;
+
+}
+
+/* logo */
+header .navbar .navbar-logo {
+    padding-top: 1.5rem;
+    margin-left: 5%;
+}
+
+/* main-section */
+
+#main-section {
+    width: 100%;
+    height: 100%;
+    background: url('../img/main.jpg');
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+#main-section .main-text {
+    width: 35%;
+    height: 80%;
+    margin: 10% 3%;
+}
+
+/* let's go section */
+
+#lets-go-section {
+    width: 100%;
+    background-image: url('../img/background-shadow-left.png');
+    background-repeat: no-repeat;
+    height: auto;
+    margin-top: 10rem;
+    background-position: left;
+    background-position: 0 400px;
+}
+
+#lets-go-section .section-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 8%;
+    margin-right: 0%;
+
+}
+
+.row {
+    display: grid;
+    width: 80%;
+
+}
+
+.row .column {
+    width: 80%;
+    background-color: var(--textColor);
+
+}
+
+.row .column:hover {
+    transform: scale(105%);
+    -webkit-box-shadow: 0px 24px 12px 0px rgba(50, 50, 50, 0.79);
+    -moz-box-shadow: 0px 24px 12px 0px rgba(50, 50, 50, 0.79);
+    box-shadow: 0px 24px 12px 0px rgba(50, 50, 50, 0.79);
+    transition: transform .7s, box-shadow .4s;
+    -webkit-transition: transform .7s, box-shadow .4s;
+
+}
+
+.card {
+    height: 500px;
+}
+
+/*
+.column .card .card-top{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}*/
+
+#card-top-1, #card-top-2, #card-top-3 {
+    width: 100%;
+    height: 300px;
+}
+
+#card-top-1 {
+    background: url('../img/card-1.jpg') center center;
+    background-size: cover;
+
+}
+
+#card-top-2 {
+    background: url('../img/card-2.jpg') center center;
+    background-size: cover;
+}
+
+#card-top-3 {
+    background: url('../img/card-3.jpg') center center;
+    background-size: cover;
+}
+
+.btn-lets-go {
+    margin: 6rem auto;
+}
+
+/* discount section */
+
+#discount {
+    width: 100%;
+    height: auto;
+}
+
+.box-group-1,
+.box-group-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+
+}
+
+.box1 img {
+    width: 100%;
+    display: block;
+}
+
+.box2 {
+    background-color: var(--textColor);
+}
+
+.box3 {
+    background-color: var(--headerColor);
+}
+
+.box4 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.box2 a,
+.box3 a {
+    background-color: #e2a355;
+}
+
+/* hiking section */
+#hiking {
+
+    height: auto;
+
+}
+
+.hiking-area {
+    background-color: #b9b5b0;
+}
+
+.hiking-text-area {
+    background: url('../img/background-shadow-left.png');
+    background-repeat: no-repeat;
+    background-position: 0 28px;
+}
+
+/* explore section */
+
+#explore {
+    overflow: hidden;
+    display: block;
+
+}
+
+.explore-wrapper {
+    background-image: url('../img/content-img-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+}
+
+#explore-paper-flat {
+    margin-top: 4%;
+    width: 150%;
+    margin-left: -15%;
+
+}
+
+#explore-paper {
+    margin-top: 17%;
+}
+
+/* comment section */
+#comment {
+    width: 100%;
+    height: auto;
+}
+
+.section-comment {
+    width: 90%;
+    margin: 15% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.comment-box {
+    width: 310px;
+    height: 150px;
+}
+
+.blockquote {
+    width: 65%;
+    margin: auto;
+}
+
+.blockquote img {
+    margin: auto;
+    display: block;
+}
+
+/* subscribe section */
+#subscribe {
+    background-color: var(--headerColor);
+    overflow: hidden;
+    height: 580px;
+}
+
+.subscribe-text-area {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.subscribe {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.subscribe-btn {
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5%;
+}
+
+#subscribe .subscribe input {
+    background-color: white;
+    outline: none;
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+}
+
+input::placeholder {
+    display: block;
+    float: left;
+    margin-left: 10rem;
+}
+
+/* footer */
+footer {
+    background-color: var(--textColor);
+    width: 100%;
+    height: 500px
+}
+
+.footer-text-area {
+    display: block;
+    padding-top: 200px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.links-card {
+    width: 30%;
+    margin-right: 25%;
+
+}
+
+.links-card ul {
+    display: flex;
+
+}
+
+.links-card ul li {
+    margin-right: 4%;
+}
+
+.footer-nav {
+    width: 20%;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}

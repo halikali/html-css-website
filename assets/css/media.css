@@ -1,0 +1,266 @@
+@media (max-width: 680px) {
+    /* navbar */
+    .navbar {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header .navbar .navbar-logo {
+        height: 14rem;
+    }
+
+
+    header .navbar .navbar-items nav ul.navigation {
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: white;
+        margin: auto;
+        z-index: 1;
+        position: relative;
+    }
+
+    header .navbar .navbar-logo .navbar-toggle-icon {
+        display: inline-block;
+        margin-left: 60%;
+
+    }
+
+    /* let's go section */
+    #lets-go-section .section-columns {
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+        position: relative;
+    }
+
+    .row {
+        width: 100%;
+
+    }
+
+    .row .column {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    /* discount section */
+    .box-group-1,
+    .box-group-2 {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .btn-rm {
+        margin-bottom: 5rem;
+    }
+
+    /* hiking section */
+    .hiking-text-area p {
+        font-size: 2.2rem;
+        padding: 0 5%;
+    }
+
+    /* explore section */
+    .explore-wrapper {
+        background-position-x: center;
+        height: 730px;
+
+    }
+
+    #explore h4 {
+        margin-left: 8%;
+        margin-top: 20%;
+    }
+
+    #explore h4 .explore-span {
+        margin-left: 5%;
+    }
+
+    /* comment section */
+    .comment-box {
+        width: 35rem;
+        height: 22rem;
+        text-align: center;
+    }
+
+    /* subscribe section */
+    .subscribe {
+        margin-top: 10%;
+        display: block;
+
+    }
+
+    .subscribe-btn {
+        margin: 5% auto;
+    }
+
+    #subscribe .subscribe input {
+        width: 100%;
+    }
+
+    /* footer */
+    footer {
+        background-color: var(--textColor);
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-text-area {
+        padding-top: 180px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .footer-nav {
+        width: 100%;
+    }
+
+    .links-card {
+        width: 80%;
+        margin-right: 5%;
+        margin-bottom: 5rem;
+
+    }
+
+
+}
+
+@media (min-width: 681px) and (max-width: 1085px) {
+
+
+    /* let's go section */
+    #lets-go-section .section-columns {
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        position: relative;
+    }
+
+    .row {
+        width: 100%;
+
+    }
+
+    .row .column {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    /* discount section */
+    .box-group-1,
+    .box-group-2 {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+
+    }
+
+    .box2 {
+
+        padding-top: 3%;
+        padding-left: 5%;
+        padding-right: 0
+    }
+
+    .box3 {
+        padding-top: 3%;
+        padding-left: 5%;
+        padding-right: 0;
+
+    }
+
+    .box2 h3,
+    .box3 h3 {
+        font-size: 3rem;
+    }
+
+    .box2 p,
+    .box3 p {
+        font-size: 1.62rem;
+    }
+
+    .btn-rm {
+        font-size: 2rem;
+        width: 22rem;
+        height: 4.5rem;
+        line-height: 4.5rem;
+    }
+
+    /* hiking section */
+    .hiking-text-area p {
+        font-size: 2.2rem;
+        padding: 0 5%;
+    }
+
+
+    /* explore section */
+    .explore-wrapper {
+        background-position-x: center;
+        height: 730px;
+
+    }
+
+    #explore h4 {
+        margin-left: 8%;
+        margin-top: 20%;
+    }
+
+    #explore h4 .explore-span {
+        margin-left: 5%;
+    }
+
+    /* comment section */
+    .section-comment {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .comment-box {
+        width: 35rem;
+        height: 22rem;
+        text-align: center;
+    }
+
+    /* subscribe section */
+    .subscribe {
+        margin-top: 10%;
+        display: block;
+
+    }
+
+    .subscribe-btn {
+        margin: 5% auto;
+    }
+
+    #subscribe .subscribe input {
+        width: 100%;
+    }
+
+    /* footer */
+    footer {
+        background-color: var(--textColor);
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-text-area {
+        padding-top: 180px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .footer-nav {
+        width: 100%;
+    }
+
+    .links-card {
+        width: 80%;
+        margin-right: 5%;
+        margin-bottom: 5rem;
+
+    }
+
+
+}
