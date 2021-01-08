@@ -20,10 +20,10 @@
            <div class="navbar-items">
                <nav>
                    <ul class="navigation">
-                       <li><a href="#">home</a></li>
-                       <li><a href="#">menu</a></li>
-                       <li><a href="#">our story</a></li>
-                       <li><a href="#">contact us</a></li>
+                       <li><a href="#main-section" id="home-link">home</a></li>
+                       <li><a href="#lets-go-section" id="menu-link">menu</a></li>
+                       <li><a href="#discount" id="our-story-link">our story</a></li>
+                       <li><a href="#contact-us" id="contact-us-link">contact us</a></li>
                    </ul>
                </nav>
            </div>
@@ -50,7 +50,7 @@
 
     <!-- lets go section-->
     <section id="lets-go-section">
-        <h2 class="lets-go-header"> let's go</h2>
+        <h2 class="lets-go-header" > let's go</h2>
         <p class="lets-go-bottom" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit unde odit similique commodi. Unde, suscipit?</p>
         <div class="section-columns">
             <div class="row">
@@ -192,7 +192,7 @@
 <!-- footer section -->
     <footer >
         <div class="footer-text-area">
-            <div class="links-card">
+            <div class="links-card" id="contact-us">
                 <h4>title here</h4>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias minus omnis, dolorum doloremque voluptatibus totam?</p>
                 <ul>
@@ -242,7 +242,8 @@
   $('.navbar-toggle-icon').click(function() {
     $('.navigation').toggle();
   });
-})
+});
+
      </script>
 </body>
 </html>
